@@ -10,9 +10,11 @@
 <body>
   
   <div id="app">
-    <h1>Interpolação</h1>
-    <p>{{ text }}</p>
-    <p v-html="linkTag"></p>
+    <label>
+      <input type="checkbox" v-model="showText">
+      Show Text
+  </label>
+  <p :class="textClass" v-if="showText">{{ text }}</p>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
