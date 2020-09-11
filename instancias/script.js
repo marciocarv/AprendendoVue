@@ -1,7 +1,9 @@
 const vm = new Vue({
     el: '#app',
-    data:{
-        title: 'Instância 1',
-        text: 'Texto da segunda instância'
+    data: {
+      text: 'Lorem ipsum dolor sit amet consectetur',
+      linkTag: `
+      <a v-bind:href="link">teste</a>
+    `       
     }
-});
+  })
