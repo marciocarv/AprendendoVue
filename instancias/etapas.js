@@ -24,7 +24,7 @@ let etapas = [
                 name: 'Luciano Marques',
                 partido: 'PPGF',
                 fotos:[
-                    {url: '22222.jpg', legenda: 'Vereador', small: false}
+                    {url: '33333.jpg', legenda: 'Vereador', small: false}
                 ]
             },
             {
